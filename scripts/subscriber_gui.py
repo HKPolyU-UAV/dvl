@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 from std_msgs.msg import String
 from waterlinked_a50_ros_driver.msg import DVL
@@ -65,7 +65,8 @@ def callback(data):
 
 	g0ID.set(str(data.beams[0].id))
 	g0Vel.set(str(data.beams[0].velocity))
-	g0Distance.set(str(data.beams[0].distance))
+	g0Distance.
+	set(str(data.beams[0].distance))
 	g0rssi.set(str(data.beams[0].rssi))
 	g0nsd.set(str(data.beams[0].nsd))
 	g0valid.set(str(data.beams[0].valid))
