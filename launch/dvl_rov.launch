@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find dvl_a50_ros_driver)/launch/launch_dvl.launch"/>
+<include file="$(find dvl_a50_ros_driver)/launch/bluerov.launch"/>
+</launch>
+
